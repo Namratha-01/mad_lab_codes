@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#EBB8F4"
+tools:context=".MainActivity">
+<TextView
+android:id="@+id/heading"
+android:layout_width="381dp"
+android:layout_height="61dp"
+android:fontFamily="casual"
+android:gravity="center"
+android:text="COUNTER APPLICATION"
+android:textAppearance="@style/TextAppearance.AppCompat.Large"
+android:textColor="#4E1B57"
+android:textStyle="bold|italic"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintHorizontal_bias="0.41"
+app:layout_constraintLeft_toLeftOf="parent"
+app:layout_constraintRight_toRightOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+app:layout_constraintVertical_bias="0.073" />
+
+<Button
+android:id="@+id/startbtn"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="144dp"
+android:background="#8D15A1"
+android:fontFamily="casual"
+android:text="START"
+android:textColor="#FAF6F6"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.507"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/heading" />
+<EditText
+android:id="@+id/count"
+android:layout_width="79dp"
+android:layout_height="80dp"
+android:layout_marginStart="164dp"
+android:layout_marginTop="152dp"
+android:ems="10"
+android:fontFamily="sans-serif-black"
+android:gravity="center"
+android:inputType="textPersonName"
+android:textColor="#2A0630"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent" />
+<Button
+android:id="@+id/stopbtn"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginBottom="172dp"
+android:background="#781A88"
+android:fontFamily="casual"
+android:text="STOP"
+android:textColor="#FAF6F6"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.535"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/startbtn"
+app:layout_constraintVertical_bias="0.186" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
